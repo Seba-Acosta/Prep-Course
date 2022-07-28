@@ -198,7 +198,7 @@ function esPositivo(numero) {
   if (numero > 0){
     return 'Es positivo';
   }else if (numero < 0) {
-    return 'Es Negativo';
+    return 'Es negativo';
   }
   else {
     return false;
@@ -226,7 +226,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + ' ' + nombre;
+  return 'Hola' + ' ' + nombre + '!';
 }
 obtenerSaludo('Martin');
 
@@ -269,7 +269,7 @@ function esVocal(letra){
   if (letra === 'a'|| letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
     return 'Es vocal';
   }else if (letra.length > 1) {
-    return 'Dato Incorrecto';
+    return 'Dato incorrecto';
   }
   else {
     return 'Dato incorrecto';
